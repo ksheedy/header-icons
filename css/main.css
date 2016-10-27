@@ -44,8 +44,8 @@ nav {
 ul {
   clear: both;
   margin: 0;
-  padding: 0;/*remove padding added by browser*/
-  list-style: none;/*remove bullets from <ol>*/
+  padding: 0;
+  list-style: none;
   overflow: hidden;
   text-align: center;
 }
