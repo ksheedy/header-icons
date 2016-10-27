@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   line-height: 1.5;
   }
 
@@ -19,7 +19,7 @@ header {
 
 .left {
   float: left;
-  width: 40px
+  width: 40px;
 }
 
 .right {
