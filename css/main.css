@@ -19,6 +19,7 @@ header {
 
 .title {
   padding: .4rem 0;
+  margin: 0 0 .7rem;
 }
 
 .left {
@@ -45,6 +46,8 @@ ul {
   margin: 0;
   padding: 0;/*remove padding added by browser*/
   list-style: none;/*remove bullets from <ol>*/
+  overflow: hidden;
+  text-align: center;
 }
 
 li {
