@@ -51,15 +51,16 @@ ul {
 }
 
 li {
-  float: left;
-  width: 33%;
   background-color: #d05c2e;
-
 }
+
 a {
+  float: left;
+  width: 33.33%;
   text-decoration: none;
   color: #fff;
   border: 1px solid #a63f38;
+  padding: .5em;
 }
 
 a:hover {
