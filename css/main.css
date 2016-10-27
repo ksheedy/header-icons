@@ -1,12 +1,12 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
-  }
+}
 
 *, *::before, *::after {
-    box-sizing: inherit;
-  }
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
@@ -15,6 +15,10 @@ body {
 header {
   color: #fff;
   background-color: #d05c2e;
+}
+
+.title {
+  padding: .4rem 0;
 }
 
 .left {
@@ -30,25 +34,20 @@ header {
 h1 {
   font-size: 2rem;
   text-align: center;
-  width: 100%;
-}
-
-nav {
-  clear: both;
-  font-size: 1.125rem;
-  text-align: center;
-}
-
-ul {
   margin: 0;
 }
 
-li {
-  display: inline-block;
+nav {
+}
+
+ul {
+  clear: both;
+  margin: 0;
+  padding: 0; /*remove padding added by browser*/
+  list-style: none; /*remove bullets from <ol>*/
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   color: #fff;
   border: 1px solid #a63f38;
