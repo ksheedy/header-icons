@@ -43,10 +43,16 @@ nav {
 ul {
   clear: both;
   margin: 0;
-  padding: 0; /*remove padding added by browser*/
-  list-style: none; /*remove bullets from <ol>*/
+  padding: 0;/*remove padding added by browser*/
+  list-style: none;/*remove bullets from <ol>*/
 }
 
+li {
+  float: left;
+  width: 33%;
+  background-color: #d05c2e;
+
+}
 a {
   text-decoration: none;
   color: #fff;
