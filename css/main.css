@@ -12,7 +12,12 @@ header {
   background-color: #d05c2e;
 }
 
+img {
+  display: inline-block;
+  width: 40px
+}
 h1 {
+  display: inline-block;
   font-size: 2rem;
   text-align: center;
   margin: 0;
@@ -27,16 +32,16 @@ ul {
   margin: 0;
 }
 
-.nav li {
+li {
   display: inline-block;
 }
 
-.nav a {
+a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
 }
 
-.nav a:hover {
+a:hover {
   background-color: #a63f38;
 }
