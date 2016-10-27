@@ -1,7 +1,12 @@
 html {
+  box-sizing: border-box;
   font-family: "Merriweather", serif;
   line-height: 1.5;
-}
+  }
+
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
 
 body {
   margin: 0;
@@ -46,6 +51,7 @@ a {
   display: inline-block;
   text-decoration: none;
   color: #fff;
+  border: 1px solid #a63f38;
 }
 
 a:hover {
