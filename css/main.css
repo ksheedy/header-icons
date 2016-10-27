@@ -12,18 +12,24 @@ header {
   background-color: #d05c2e;
 }
 
-img {
-  display: inline-block;
+.left {
+  float: left;
   width: 40px
 }
+
+.right {
+  float: right;
+  width: 40px;
+}
+
 h1 {
-  display: inline-block;
   font-size: 2rem;
   text-align: center;
-  margin: 0;
+  width: 100%;
 }
 
 nav {
+  clear: both;
   font-size: 1.125rem;
   text-align: center;
 }
